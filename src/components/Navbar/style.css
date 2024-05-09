@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a:hover {
+  color: #ff9900;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 20px;
+}

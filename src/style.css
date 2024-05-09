@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("./assets/font/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  background-image: url("./assets/img/bg.png");
+}
