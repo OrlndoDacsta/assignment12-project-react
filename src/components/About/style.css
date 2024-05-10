@@ -9,6 +9,7 @@
 
 .about img {
   height: 350px;
+  border-radius: 80px 80px 0 0;
 }
 
 .about-text {

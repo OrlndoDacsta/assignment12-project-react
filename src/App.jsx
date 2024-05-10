@@ -20,6 +20,10 @@ import reviewImg from "./assets/img/review.png";
 import Review from "./components/Review";
 import rightArrow from "./assets/img/rightArrow.png";
 import leftArrow from "./assets/img/leftArrow.png";
+import Footer from "./components/Footer";
+import iconFb from "./assets/icon/facebook.svg";
+import iconIg from "./assets/icon/instagram.svg";
+import iconYt from "./assets/icon/youtube.svg";
 
 const App = () => {
   const linkList = ["Home", "About", "Menu", "Contact"];
@@ -32,6 +36,15 @@ const App = () => {
     { img: cookies, title: "Cookies" },
     { img: bread, title: "Bread" },
   ];
+  const footerLink = [
+    "Home",
+    "About",
+    "Services",
+    "Team",
+    "FAQs",
+    "Contact Us",
+  ];
+  const iconList = [iconFb, iconIg, iconYt];
 
   return (
     <div>
@@ -45,7 +58,8 @@ const App = () => {
 
       <Card_2 card2={cardList_2} />
       <About img={aboutImg} />
-      <Review img={reviewImg} right={rightArrow} left={leftArrow}/>
+      <Review img={reviewImg} right={rightArrow} left={leftArrow} />
+      <Footer link={footerLink} icon={iconList} />
     </div>
   );
 };

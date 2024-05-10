@@ -4,7 +4,7 @@ const Navlogo = ({ logo }) => {
   return (
     <div className="navlogo">
       <img src={logo} alt="logo" />
-      <p>Grandma's</p>
+      <p>Mom's</p>
       <p>Bakery</p>
     </div>
   );
