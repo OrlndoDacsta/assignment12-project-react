@@ -1,0 +1,57 @@
+.review-container {
+  background-image: url("../../assets/img/bg.png");
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.review-container h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.review-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.review-img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ebedec;
+  border-radius: 50%;
+}
+
+.review-img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.review-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.review-text {
+  width: 450px;
+  line-height: 30px;
+}
+
+.review-button {
+  border: none;
+  background-color: transparent;
+}
+
+.review-button:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 0.5s;
+}

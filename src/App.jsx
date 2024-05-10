@@ -16,7 +16,10 @@ import cookies from "./assets/img/card-cookies.png";
 import bread from "./assets/img/card-bread.png";
 import About from "./components/About";
 import aboutImg from "./assets/img/about.png";
-
+import reviewImg from "./assets/img/review.png";
+import Review from "./components/Review";
+import rightArrow from "./assets/img/rightArrow.png";
+import leftArrow from "./assets/img/leftArrow.png";
 
 const App = () => {
   const linkList = ["Home", "About", "Menu", "Contact"];
@@ -42,6 +45,7 @@ const App = () => {
 
       <Card_2 card2={cardList_2} />
       <About img={aboutImg} />
+      <Review img={reviewImg} right={rightArrow} left={leftArrow}/>
     </div>
   );
 };
