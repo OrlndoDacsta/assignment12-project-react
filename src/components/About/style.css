@@ -45,3 +45,47 @@
   shadow: 0 0 10px black;
   box-shadow: 0 0 10px black;
 }
+
+@media screen and (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .about img {
+    height: 250px;
+    border-radius: 80px 80px 0 0;
+  }
+
+  .about-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .about-text h1 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-text p {
+    line-height: 30px;
+    text-align: justify;
+    font-size: 10px;
+  }
+
+  .about-text button {
+    width: 65px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}

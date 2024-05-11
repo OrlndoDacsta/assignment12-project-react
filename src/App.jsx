@@ -18,12 +18,11 @@ import About from "./components/About";
 import aboutImg from "./assets/img/about.png";
 import reviewImg from "./assets/img/review.png";
 import Review from "./components/Review";
-import rightArrow from "./assets/img/rightArrow.png";
-import leftArrow from "./assets/img/leftArrow.png";
 import Footer from "./components/Footer";
 import iconFb from "./assets/icon/facebook.svg";
 import iconIg from "./assets/icon/instagram.svg";
 import iconYt from "./assets/icon/youtube.svg";
+import Member from "./components/Member";
 
 const App = () => {
   const linkList = ["Home", "About", "Menu", "Contact"];
@@ -40,7 +39,7 @@ const App = () => {
     "Home",
     "About",
     "Services",
-    "Team",
+    "Member",
     "FAQs",
     "Contact Us",
   ];
@@ -58,7 +57,8 @@ const App = () => {
 
       <Card_2 card2={cardList_2} />
       <About img={aboutImg} />
-      <Review img={reviewImg} right={rightArrow} left={leftArrow} />
+      <Review image={reviewImg} />
+      <Member />
       <Footer link={footerLink} icon={iconList} />
     </div>
   );

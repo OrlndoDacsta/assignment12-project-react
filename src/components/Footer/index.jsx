@@ -5,7 +5,7 @@ const Footer = (props) => {
   return (
     <div className="footer-container">
       <div className="footer-wrap">
-        <div> 
+        <div>
           {link.map((item, index) => (
             <div className="footer-link">
               <a href="#" key={index}>
@@ -31,11 +31,11 @@ const Footer = (props) => {
         <p>Copyright © 2024. Mom's Bakery</p>
 
         <div className="footer-icon">
-            {icon.map((item, index) => (
-              <a href="#" key={index}>
-                <img src={item} alt="icon" />
-              </a>
-            ))}    
+          {icon.map((item, index) => (
+            <a href="#" key={index}>
+              <img src={item} alt="icon"/>
+            </a>
+          ))}
         </div>
       </div>
     </div>

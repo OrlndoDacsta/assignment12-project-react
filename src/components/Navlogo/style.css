@@ -21,3 +21,15 @@
   width: 30px;
   height: 30px;
 }
+
+@media screen and (max-width: 500px) {
+  .navlogo img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .navlogo {
+    font-size: 10px;
+    gap: 3px;
+  }
+}

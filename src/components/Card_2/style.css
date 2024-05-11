@@ -52,3 +52,29 @@
   font-size: 15px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 500px) {
+  .card_2-wrap {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+  }
+
+  .card_2-title {
+    font-size: 15px;
+  }
+
+  .card_2-subtitle {
+    font-size: 10px;
+    width: 300px;
+  }
+
+  .card_2 p {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}

@@ -65,3 +65,42 @@
   border-radius: 50%;
   padding: 5px;
 }
+
+@media screen and (max-width: 500px) {
+  .footer-wrap {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-link {
+    font-size: 12px;
+  }
+
+  .footer-contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-contact h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .footer-contact p {
+    font-size: 12px;
+  }
+
+  .footer-map iframe {
+    height: 200px;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-copyright p {
+    font-size: 10px;
+  }
+}

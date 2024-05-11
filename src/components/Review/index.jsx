@@ -1,19 +1,14 @@
-import React from "react";
 import "./style.css";
 
 const Review = (props) => {
-  const { img, right, left } = props;
+  const { image } = props;
 
   return (
     <div className="review-container">
       <h1>Review From Our Customers</h1>
       <div className="review-wrap">
-        <button className="review-button">
-          <img src={left} alt="" />
-        </button>
-
-        <div className="review-img">
-          <img src={img} alt="review" />
+        <div className="review-photo">
+          <img src={image} alt="review" />
         </div>
 
         <div className="review-text">
@@ -25,11 +20,8 @@ const Review = (props) => {
           <p>
             <b>Aisha Pun,</b> Student
           </p>
+          <button className="review-button">See More</button>
         </div>
-
-        <button className="review-button">
-          <img src={right} alt="" />
-        </button>
       </div>
     </div>
   );

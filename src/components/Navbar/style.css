@@ -10,3 +10,10 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    font-size: 12px;
+    gap: 10px;
+  }
+}

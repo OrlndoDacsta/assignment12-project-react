@@ -17,7 +17,6 @@ const Card_2 = (props) => {
               <img src={item.img} alt="imgcard2" />
               <p>{item.title}</p>
             </div>
-           
           </>
         ))}
       </div>
