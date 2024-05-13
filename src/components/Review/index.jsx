@@ -1,10 +1,10 @@
 import "./style.css";
 
 const Review = (props) => {
-  const { image } = props;
+  const { image, id } = props;
 
   return (
-    <div className="review-container">
+    <div className="review-container" id={id}>
       <h1>Review From Our Customers</h1>
       <div className="review-wrap">
         <div className="review-photo">

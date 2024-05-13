@@ -6,7 +6,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       {nav.map((item, index) => (
-        <a key={index}>{item}</a>
+        <a key={index} href={item.href}>{item.title}</a>
       ))}
     </div>
   );

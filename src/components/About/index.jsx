@@ -1,7 +1,8 @@
 import "./style.css";
-const About = ({ img }) => {
+const About = (props) => {
+  const { img, id } = props;
   return (
-    <div className="about">
+    <div className="about"  id={id}>
       <img src={img} alt="about" />
       <div className="about-text">
         <h1>About Mom's Bakery</h1>

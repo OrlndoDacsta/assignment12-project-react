@@ -3,6 +3,11 @@
   gap: 20px;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar a:hover {
   color: #ff9900;
   cursor: pointer;

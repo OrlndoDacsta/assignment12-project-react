@@ -1,9 +1,9 @@
 import "./style.css";
 const Card_2 = (props) => {
-  const { card2 } = props;
+  const { card2, id } = props;
 
   return (
-    <div className="card_2-container">
+    <div className="card_2-container" id={id}>
       <h2 className="card_2-title">What We Offer</h2>
       <p className="card_2-subtitle">
         Introducing you a wide variety of bakery items with unique taste and the

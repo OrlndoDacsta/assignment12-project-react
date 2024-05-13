@@ -1,9 +1,9 @@
 import "./style.css";
 
 const Footer = (props) => {
-  const { link, icon } = props;
+  const { link, icon, id } = props;
   return (
-    <div className="footer-container">
+    <div className="footer-container" id={id}>
       <div className="footer-wrap">
         <div>
           {link.map((item, index) => (
@@ -33,7 +33,7 @@ const Footer = (props) => {
         <div className="footer-icon">
           {icon.map((item, index) => (
             <a href="#" key={index}>
-              <img src={item} alt="icon"/>
+              <img src={item} alt="icon" />
             </a>
           ))}
         </div>

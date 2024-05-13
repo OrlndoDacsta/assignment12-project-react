@@ -25,7 +25,13 @@ import iconYt from "./assets/icon/youtube.svg";
 import Member from "./components/Member";
 
 const App = () => {
-  const linkList = ["Home", "About", "Menu", "Contact"];
+  const linkList = [
+    { href: "#home", title: "Home" },
+    { href: "#about", title: "About" },
+    { href: "#menu", title: "Menu" },
+    { href: "#review", title: "Review" },
+    { href: "#contact", title: "Contact" },
+  ];
   const cardList_1 = [Img1, Img2, Img3];
   const cardList_2 = [
     { img: cakes, title: "Cakes" },
@@ -52,14 +58,14 @@ const App = () => {
           <Navlogo logo={logoImg} />
           <Navbar nav={linkList} />
         </div>
-        <Card_1 card1={cardList_1} />
+        <Card_1 card1={cardList_1} id="home" />
       </section>
 
-      <Card_2 card2={cardList_2} />
-      <About img={aboutImg} />
-      <Review image={reviewImg} />
+      <Card_2 card2={cardList_2} id="menu" />
+      <About img={aboutImg} id="about" />
+      <Review image={reviewImg} id="review" />
       <Member />
-      <Footer link={footerLink} icon={iconList} />
+      <Footer link={footerLink} icon={iconList} id="contact" />
     </div>
   );
 };

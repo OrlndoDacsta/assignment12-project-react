@@ -1,8 +1,10 @@
 import "./style.css";
 
-const Card_1 = ({ card1 }) => {
+const Card_1 = (props) => {
+  const { card1, id } = props; 
+
   return (
-    <div className="card_1-container">
+    <div className="card_1-container" id={id}>
       <h1 className="card_1-title">Enjoy fresh items of our Mom’s Recipe </h1>
       <button className="card_1-button">See Menu</button>
 
